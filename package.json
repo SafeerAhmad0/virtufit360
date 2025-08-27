@@ -1,0 +1,49 @@
+{
+  "name": "virtufit360",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.2",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.50.2",
+    "axios": "^1.9.0",
+    "button": "^1.1.1",
+    "clsx": "^2.1.1",
+    "color-thief-ts": "^1.1.1",
+    "form-data": "^4.0.3",
+    "formidable": "^3.5.4",
+    "framer-motion": "^12.16.0",
+    "geist": "^1.4.2",
+    "next": "15.3.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.6.0",
+    "react": "^19.0.0",
+    "react-awesome-button": "^7.0.5",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "sonner": "^2.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

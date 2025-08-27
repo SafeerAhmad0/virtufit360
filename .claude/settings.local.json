@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git filter-branch:*)",
+      "Bash(git add:*)",
+      "Bash(git filter-repo:*)",
+      "Bash(git push:*)",
+      "Bash(git branch:*)",
+      "Bash(git log:*)",
+      "Bash(export FILTER_BRANCH_SQUELCH_WARNING=1)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --tree-filter 'if [ -f src/app/api/cool-color/route.ts ]; then sed -i \"\"s/sk-proj-[^\\\"\"]*\\\"\"/process.env.OPENAI_API_KEY\\\"\"/g\"\" src/app/api/cool-color/route.ts; fi; if [ -f src/app/try-on/page.tsx ]; then sed -i \"\"s/hf_[^\\\"\"]*\\\"\"/process.env.HUGGING_FACE_TOKEN\\\"\"/g\"\" src/app/try-on/page.tsx; fi' --prune-empty HEAD)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --tree-filter 'if [ -f src/app/try-on/page.tsx ]; then sed -i \"\"s/\\\"\"hf_[^\\\"\"]*\\\"\"/\\\"\"process.env.HUGGING_FACE_TOKEN\\\"\"/g\"\" src/app/try-on/page.tsx; fi' --prune-empty HEAD)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

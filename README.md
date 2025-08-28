@@ -1,29 +1,30 @@
-# VirtuFit360 - Your Ultimate Fitness Companion
+# VirtuFit360 - Virtual Try-On Fitness Platform
 
 ![VirtuFit360 Logo](/public/images/Logo1.png)
 
-VirtuFit360 is a modern, full-stack fitness platform built with Next.js, React, and Supabase. It provides users with a comprehensive fitness tracking solution, workout plans, and personalized training experiences.
+VirtuFit360 is an innovative virtual try-on platform for fitness apparel and equipment, built with Next.js, React, and Supabase. Experience the future of online fitness shopping with our cutting-edge virtual fitting room technology that helps you find the perfect fit before you buy.
 
 ## 🚀 Features
 
-- 🔐 User authentication and profile management
-- 💪 Workout tracking and progress monitoring
-- 📅 Training plan scheduling
-- 🎯 Goal setting and achievement tracking
-- 📊 Performance analytics and insights
-- 🎨 Modern, responsive UI with smooth animations
-- 🔄 Real-time data synchronization
+- 👕 Virtual try-on for fitness apparel
+- 🏋️‍♂️ 3D product visualization
+- 📏 AI-powered size recommendation
+- 🎨 Real-time color and style customization
+- 📱 Mobile-responsive design for on-the-go shopping
+- 🛒 Seamless e-commerce integration
+- 🔄 Real-time inventory tracking
 
 ## 🛠 Tech Stack
 
 - **Frontend**: Next.js 15, React 19, TypeScript
+- **3D Visualization**: Three.js, React Three Fiber
+- **AR/VR**: WebXR, Model-Viewer
 - **Styling**: Tailwind CSS, Emotion, Material-UI
 - **Backend**: Supabase (Authentication, Database, Storage)
-- **Animation**: Framer Motion
-- **Form Handling**: React Hook Form
-- **State Management**: React Context API
-- **Notifications**: React Hot Toast, Sonner
-- **Email**: EmailJS
+- **Image Processing**: Sharp, TensorFlow.js
+- **Animation**: Framer Motion, GSAP
+- **State Management**: React Context API, Zustand
+- **E-commerce**: Snipcart or Stripe Integration
 
 ## 📦 Prerequisites
 
